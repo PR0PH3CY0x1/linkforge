@@ -11,11 +11,6 @@ def parser():
         '--url'
     )
 
-    parser.add_argument(
-        '-n',
-        '--max'
-    )
-    
 
     args = parser.parse_args()
 
